@@ -1,0 +1,6 @@
+<h1>Update Daily Todo</h1>
+<form action="">
+    {% csrf_token %}
+    <input type="text" name="title" id="" value="{{ todo.title }}">
+    <button type="submit">Update Todo</button>
+</form>
